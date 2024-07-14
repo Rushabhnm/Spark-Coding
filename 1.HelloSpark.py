@@ -8,7 +8,8 @@ if __name__ == "__main__":
 
     datalist = [("Rushabh",25),
                 ("Uma", 51),
-                ("Navin",58)]
+                ("Navin",58),
+                ("Bablu", 47)]
 
     df = spark.createDataFrame(datalist).toDF("Name","Age")
 
